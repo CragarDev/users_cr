@@ -1,0 +1,23 @@
+INSERT INTO users (first_name , last_name , email , created_at, updated_at )
+VALUES ("Phillip","Fry","pfry@planetexpress.com", NOW() , NOW() );
+
+INSERT INTO users (first_name , last_name , email , created_at, updated_at )
+VALUES ("Turanga","Leela","captainL@planetexpress.com", NOW() , NOW() );
+
+INSERT INTO users (first_name , last_name , email , created_at, updated_at )
+VALUES ("Bender","Rodriguez","bendersgreat@planetexpress.com", NOW() , NOW() );
+
+INSERT INTO users (first_name , last_name , email , created_at, updated_at )
+VALUES ("Hermes","Conrad","hconrade@planetexpress.com", NOW() , NOW() );
+
+INSERT INTO users (first_name , last_name , email , created_at, updated_at )
+VALUES ("Dr. John","Zoidberg","fish@planetexpress.com", NOW() , NOW());
+
+INSERT INTO users (first_name , last_name , email , created_at, updated_at )
+VALUES ("Amy","Wong","AWong@Mars.com", NOW() , NOW());
+
+
+
+UPDATE users
+SET first_name = "Professor", last_name = "Farnsworth", email = "goodnewseveryone@planetexpress.com" , updated_at = NOW()
+WHERE id = 7
